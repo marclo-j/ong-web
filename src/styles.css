@@ -2,6 +2,14 @@
 @source "../src";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: "Sugar Peachy";
+  src: url("/Sugar_Peachy.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -33,7 +41,7 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  --font-display: "Bagel Fat One", "Lilita One", system-ui, sans-serif;
+  --font-display: "Sugar Peachy", "Lilita One", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
 
   --shadow-pop: 6px 6px 0 0 var(--ink);
@@ -142,7 +150,7 @@
 
 .text-sticker {
   color: var(--ink);
-  -webkit-text-stroke: 8px #ffffff;
+  -webkit-text-stroke: 5.5px #ffffff;
   paint-order: stroke fill;
   filter: drop-shadow(4px 4px 0px var(--ink));
   letter-spacing: -0.03em;
@@ -150,28 +158,28 @@
 
 @media (min-width: 640px) {
   .text-sticker {
-    -webkit-text-stroke: 10px #ffffff;
+    -webkit-text-stroke: 7px #ffffff;
     filter: drop-shadow(5px 5px 0px var(--ink));
   }
 }
 
 @media (min-width: 768px) {
   .text-sticker {
-    -webkit-text-stroke: 14px #ffffff;
+    -webkit-text-stroke: 10px #ffffff;
     filter: drop-shadow(7px 7px 0px var(--ink));
   }
 }
 
 @media (min-width: 1024px) {
   .text-sticker {
-    -webkit-text-stroke: 18px #ffffff;
+    -webkit-text-stroke: 12.5px #ffffff;
     filter: drop-shadow(9px 9px 0px var(--ink));
   }
 }
 
 @media (min-width: 1280px) {
   .text-sticker {
-    -webkit-text-stroke: 22px #ffffff;
+    -webkit-text-stroke: 15px #ffffff;
     filter: drop-shadow(11px 11px 0px var(--ink));
   }
 }

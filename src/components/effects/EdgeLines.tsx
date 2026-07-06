@@ -29,22 +29,48 @@ export function EdgeLines() {
   useScrollAnimation((gsap) => {
     if (!containerRef.current) return;
 
-    const allPaths = containerRef.current.querySelectorAll("path");
+    const colorPaths = containerRef.current.querySelectorAll<SVGPathElement>("[data-type='color']");
+    const borderPaths = containerRef.current.querySelectorAll<SVGPathElement>("[data-type='border']");
+    const outerLeft = containerRef.current.querySelector<SVGPathElement>("[data-type='outer-left']");
+    const outerRight = containerRef.current.querySelector<SVGPathElement>("[data-type='outer-right']");
+
     const tl = gsap.timeline({ delay: 0.5 });
 
-    allPaths.forEach((path, i) => {
-      const length = (path as SVGPathElement).getTotalLength?.() || 5000;
+    const setup = (path: SVGPathElement) => {
+      const length = path.getTotalLength?.() || 5000;
       gsap.set(path, {
         strokeDasharray: length,
         strokeDashoffset: length,
         opacity: 1,
       });
+    };
+
+    const draw = (path: SVGPathElement, pos: number) => {
       tl.to(path, {
         strokeDashoffset: 0,
         duration: 2,
         ease: "power2.inOut",
-      }, i * 0.1);
+      }, pos);
+    };
+
+    colorPaths.forEach((path, i) => {
+      setup(path);
+      draw(path, i * 0.1);
     });
+
+    borderPaths.forEach((path, i) => {
+      setup(path);
+      draw(path, i * 0.1);
+    });
+
+    if (outerLeft) {
+      setup(outerLeft);
+      draw(outerLeft, 0);
+    }
+    if (outerRight) {
+      setup(outerRight);
+      draw(outerRight, (COLORS.length - 1) * 0.1);
+    }
   }, []);
 
   return (
@@ -66,6 +92,7 @@ export function EdgeLines() {
           return (
             <path
               key={`color-${i}`}
+              data-type="color"
               d={d}
               stroke={color}
               strokeWidth={BAND_WIDTH}
@@ -83,6 +110,7 @@ export function EdgeLines() {
           return (
             <path
               key={`border-${i}`}
+              data-type="border"
               d={d}
               stroke={BORDER_COLOR}
               strokeWidth={BORDER_WIDTH}
@@ -93,8 +121,9 @@ export function EdgeLines() {
           );
         })}
 
-        {/* Borde exterior */}
+        {/* Borde exterior izquierdo */}
         <path
+          data-type="outer-left"
           d={getRainbowPath(-BAND_WIDTH / 2)}
           stroke={BORDER_COLOR}
           strokeWidth={BORDER_WIDTH}
@@ -102,7 +131,9 @@ export function EdgeLines() {
           fill="none"
           style={{ opacity: 0 }}
         />
+        {/* Borde exterior derecho */}
         <path
+          data-type="outer-right"
           d={getRainbowPath(COLORS.length * BAND_WIDTH - BAND_WIDTH / 2)}
           stroke={BORDER_COLOR}
           strokeWidth={BORDER_WIDTH}

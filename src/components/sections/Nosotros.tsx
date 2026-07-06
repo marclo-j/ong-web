@@ -5,9 +5,8 @@ import { NOSOTROS } from "@/lib/constants";
 
 export function Nosotros() {
   const heroRef = useScrollAnimation((gsap) => {
-    gsap.fromTo(
+    gsap.to(
       ".hero-title span span",
-      { y: 80, opacity: 0, scale: 0.8 },
       {
         y: 0,
         opacity: 1,
@@ -17,9 +16,8 @@ export function Nosotros() {
         ease: "back.out(1.7)",
       },
     );
-    gsap.fromTo(
+    gsap.to(
       ".hero-sub",
-      { y: 40, opacity: 0, scaleX: 0.8 },
       {
         y: 0,
         opacity: 1,
@@ -29,9 +27,8 @@ export function Nosotros() {
         ease: "elastic.out(1, 0.5)",
       },
     );
-    gsap.fromTo(
+    gsap.to(
       ".hero-desc",
-      { y: 30, opacity: 0 },
       { y: 0, opacity: 1, duration: 0.8, delay: 1, ease: "power2.out" },
     );
   }, []);
@@ -77,15 +74,26 @@ export function Nosotros() {
             <h1 className="font-display text-7xl leading-[0.85] tracking-tight sm:text-8xl md:text-9xl lg:text-[10rem] xl:text-[12rem]">
               {NOSOTROS.hero.title.split(" ").map((word, i) => (
                 <span key={i} className="mr-[0.15em] inline-block">
-                  <span className="text-sticker inline-block">{word}</span>
+                  <span
+                    className="text-sticker inline-block"
+                    style={{ opacity: 0, transform: "translateY(80px) scale(0.8)" }}
+                  >
+                    {word}
+                  </span>
                 </span>
               ))}
             </h1>
           </div>
-          <p className="hero-sub mt-8 font-display text-2xl md:text-3xl lg:text-4xl">
+          <p
+            className="hero-sub mt-8 font-display text-2xl md:text-3xl lg:text-4xl"
+            style={{ opacity: 0, transform: "translateY(40px) scaleX(0.8)" }}
+          >
             <span className="highlight-block">{NOSOTROS.hero.subtitle}</span>
           </p>
-          <p className="hero-desc mx-auto mt-10 max-w-2xl text-lg leading-relaxed md:text-xl">
+          <p
+            className="hero-desc mx-auto mt-10 max-w-2xl text-lg leading-relaxed md:text-xl"
+            style={{ opacity: 0, transform: "translateY(30px)" }}
+          >
             {NOSOTROS.hero.description}
           </p>
         </div>
