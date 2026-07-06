@@ -1,0 +1,203 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-orange: var(--orange);
+  --color-orange-deep: var(--orange-deep);
+  --color-pink: var(--pink);
+  --color-yellow: var(--yellow);
+  --color-mustard: var(--mustard);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-display: "Bagel Fat One", "Lilita One", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --shadow-pop: 6px 6px 0 0 var(--ink);
+  --shadow-pop-lg: 10px 10px 0 0 var(--ink);
+}
+
+:root {
+  --radius: 1rem;
+  --cream: oklch(0.95 0.04 90);
+  --ink: oklch(0.18 0.02 50);
+  --orange: oklch(0.72 0.2 45);
+  --orange-deep: oklch(0.62 0.22 35);
+  --pink: oklch(0.78 0.16 5);
+  --yellow: oklch(0.88 0.16 90);
+  --mustard: oklch(0.78 0.16 75);
+
+  --rainbow-red: oklch(0.68 0.22 25);
+  --rainbow-orange: var(--orange);
+  --rainbow-yellow: var(--yellow);
+  --rainbow-green: oklch(0.78 0.16 140);
+  --rainbow-blue: oklch(0.68 0.16 240);
+  --rainbow-purple: oklch(0.62 0.16 300);
+
+  --background: var(--cream);
+  --foreground: var(--ink);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--ink);
+  --primary: var(--orange-deep);
+  --primary-foreground: oklch(1 0 0);
+  --muted: oklch(0.92 0.03 85);
+  --muted-foreground: oklch(0.4 0.02 50);
+  --accent: var(--pink);
+  --accent-foreground: var(--ink);
+  --border: var(--ink);
+  --input: oklch(0.9 0.02 80);
+  --ring: var(--orange);
+  --destructive: oklch(0.6 0.22 25);
+  --destructive-foreground: oklch(1 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--ink);
+  --secondary: var(--yellow);
+  --secondary-foreground: var(--ink);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+    line-height: 0.95;
+  }
+}
+
+@utility outlined {
+  border: 3px solid var(--ink);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@utility animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@utility animate-spin-slow {
+  animation: spin-slow 18s linear infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+}
+@utility animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.text-outline {
+  -webkit-text-stroke: 3px var(--ink);
+  color: transparent;
+}
+
+.text-sticker {
+  color: var(--ink);
+  -webkit-text-stroke: 8px #ffffff;
+  paint-order: stroke fill;
+  filter: drop-shadow(4px 4px 0px var(--ink));
+  letter-spacing: -0.03em;
+}
+
+@media (min-width: 640px) {
+  .text-sticker {
+    -webkit-text-stroke: 10px #ffffff;
+    filter: drop-shadow(5px 5px 0px var(--ink));
+  }
+}
+
+@media (min-width: 768px) {
+  .text-sticker {
+    -webkit-text-stroke: 14px #ffffff;
+    filter: drop-shadow(7px 7px 0px var(--ink));
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-sticker {
+    -webkit-text-stroke: 18px #ffffff;
+    filter: drop-shadow(9px 9px 0px var(--ink));
+  }
+}
+
+@media (min-width: 1280px) {
+  .text-sticker {
+    -webkit-text-stroke: 22px #ffffff;
+    filter: drop-shadow(11px 11px 0px var(--ink));
+  }
+}
+
+.highlight-block {
+  display: inline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  background-color: var(--yellow);
+  padding: 0.05em 0.3em;
+  border: 3px solid var(--ink);
+  border-radius: 0.3em;
+}
+
+.edge-stroke {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.edge-lines-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}

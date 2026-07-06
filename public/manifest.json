@@ -1,0 +1,16 @@
+{
+  "name": "Gotas de Esperanza",
+  "short_name": "Gotas",
+  "description": "Transformando vidas, una gota a la vez. ONG de bienestar social.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf5ed",
+  "theme_color": "#e05a33",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

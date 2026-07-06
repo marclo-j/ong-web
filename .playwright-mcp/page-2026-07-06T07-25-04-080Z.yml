@@ -1,0 +1,225 @@
+- generic [ref=f6e2]:
+    - navigation "Navegación principal" [ref=f6e4]:
+        - generic [ref=f6e5]:
+            - button "Ir al inicio" [ref=f6e6]:
+                - img [ref=f6e7]
+                - generic [ref=f6e9]: Gotas
+            - menubar [ref=f6e10]:
+                - menuitem "Nosotros" [ref=f6e11]: Nosotros
+                - menuitem "Programas" [ref=f6e13]
+                - menuitem "Galería" [ref=f6e14]
+            - button "Ir a sección de donaciones" [ref=f6e15]: Donar
+    - main [ref=f6e16]:
+        - generic [ref=f6e18]:
+            - generic:
+                - generic:
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                - img
+            - generic [ref=f6e19]:
+                - heading "Gotas de Esperanza" [level=1] [ref=f6e21]:
+                    - generic [ref=f6e23]: Gotas
+                    - generic [ref=f6e25]: de
+                    - generic [ref=f6e27]: Esperanza
+                - paragraph [ref=f6e28]: Transformando vidas, una gota a la vez
+                - paragraph [ref=f6e29]: Desde 2014 trabajamos incansablemente para llevar esperanza, alimento y oportunidades a quienes más lo necesitan. Creemos en un mundo donde cada persona tenga la oportunidad de construir un futuro digno.
+        - generic [ref=f6e32]:
+            - generic [ref=f6e34]:
+                - generic [ref=f6e35]: Misión
+                - heading "Nuestra Misión" [level=2] [ref=f6e36]
+                - paragraph [ref=f6e37]: Brindar apoyo integral a comunidades en situación de vulnerabilidad a través de programas alimentarios, educativos y de protección infantil, promoviendo el desarrollo sostenible y la dignidad humana.
+            - generic [ref=f6e39]:
+                - generic [ref=f6e40]: Visión
+                - heading "Nuestra Visión" [level=2] [ref=f6e41]
+                - paragraph [ref=f6e42]: Ser una organización líder en el bienestar social, reconocida por su compromiso con la transformación comunitaria, creando un futuro donde cada gota de esperanza se convierta en un océano de oportunidades.
+        - generic [ref=f6e44]:
+            - generic:
+                - generic:
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                - img
+            - generic [ref=f6e45]:
+                - generic [ref=f6e46]:
+                    - heading "Nuestros Programas" [level=2] [ref=f6e47]
+                    - paragraph [ref=f6e48]: Conoce cada una de nuestras iniciativas y cómo transformamos vidas día a día.
+                - list [ref=f6e49]:
+                    - listitem [ref=f6e50]:
+                        - button "Alimentación Gotas de Esperanza Brindamos alimentos nutritivos a familias en situación de vulnerabilidad. Este programa asegura que niños, adultos mayores y personas en riesgo tengan acceso a una alimentación balanceada y digna. Ver más →" [ref=f6e51]:
+                            - generic [ref=f6e52]: Alimentación
+                            - img [ref=f6e54]
+                            - heading "Gotas de Esperanza" [level=3] [ref=f6e56]
+                            - paragraph [ref=f6e57]: Brindamos alimentos nutritivos a familias en situación de vulnerabilidad. Este programa asegura que niños, adultos mayores y personas en riesgo tengan acceso a una alimentación balanceada y digna.
+                            - generic [ref=f6e58]:
+                                - generic [ref=f6e59]: Ver más
+                                - generic [ref=f6e60]: →
+                    - listitem [ref=f6e61]:
+                        - button "Alimentación El Nazareno Programa de comedor comunitario que ofrece almuerzos calientes a niños y adultos mayores, promoviendo la nutrición y la convivencia solidaria. Ver más →" [ref=f6e62]:
+                            - generic [ref=f6e63]: Alimentación
+                            - img [ref=f6e65]
+                            - heading "El Nazareno" [level=3] [ref=f6e67]
+                            - paragraph [ref=f6e68]: Programa de comedor comunitario que ofrece almuerzos calientes a niños y adultos mayores, promoviendo la nutrición y la convivencia solidaria.
+                            - generic [ref=f6e69]:
+                                - generic [ref=f6e70]: Ver más
+                                - generic [ref=f6e71]: →
+                    - listitem [ref=f6e72]:
+                        - button "Protección Gotas de Protección Programa de protección infantil que brinda un entorno seguro a niños y adolescentes en riesgo, con apoyo psicológico, recreación y seguimiento escolar. Ver más →" [ref=f6e73]:
+                            - generic [ref=f6e74]: Protección
+                            - img [ref=f6e76]
+                            - heading "Gotas de Protección" [level=3] [ref=f6e78]
+                            - paragraph [ref=f6e79]: Programa de protección infantil que brinda un entorno seguro a niños y adolescentes en riesgo, con apoyo psicológico, recreación y seguimiento escolar.
+                            - generic [ref=f6e80]:
+                                - generic [ref=f6e81]: Ver más
+                                - generic [ref=f6e82]: →
+                    - listitem [ref=f6e83]:
+                        - button "Educación Esperanza Futuro Programa de becas educativas y apoyo escolar para que niños y jóvenes puedan continuar sus estudios y construir un futuro mejor. Ver más →" [ref=f6e84]:
+                            - generic [ref=f6e85]: Educación
+                            - img [ref=f6e87]
+                            - heading "Esperanza Futuro" [level=3] [ref=f6e89]
+                            - paragraph [ref=f6e90]: Programa de becas educativas y apoyo escolar para que niños y jóvenes puedan continuar sus estudios y construir un futuro mejor.
+                            - generic [ref=f6e91]:
+                                - generic [ref=f6e92]: Ver más
+                                - generic [ref=f6e93]: →
+                    - listitem [ref=f6e94]:
+                        - button "Desarrollo Emprendimiento Capacitación y microcréditos para que madres y padres de familia puedan iniciar sus propios emprendimientos y generar ingresos sostenibles. Ver más →" [ref=f6e95]:
+                            - generic [ref=f6e96]: Desarrollo
+                            - img [ref=f6e98]
+                            - heading "Emprendimiento" [level=3] [ref=f6e100]
+                            - paragraph [ref=f6e101]: Capacitación y microcréditos para que madres y padres de familia puedan iniciar sus propios emprendimientos y generar ingresos sostenibles.
+                            - generic [ref=f6e102]:
+                                - generic [ref=f6e103]: Ver más
+                                - generic [ref=f6e104]: →
+                    - listitem [ref=f6e105]:
+                        - button "Vivienda Construyendo Vidas Programa de mejora de vivienda que brinda soluciones habitacionales básicas a familias que viven en condiciones precarias. Ver más →" [ref=f6e106]:
+                            - generic [ref=f6e107]: Vivienda
+                            - img [ref=f6e109]
+                            - heading "Construyendo Vidas" [level=3] [ref=f6e111]
+                            - paragraph [ref=f6e112]: Programa de mejora de vivienda que brinda soluciones habitacionales básicas a familias que viven en condiciones precarias.
+                            - generic [ref=f6e113]:
+                                - generic [ref=f6e114]: Ver más
+                                - generic [ref=f6e115]: →
+        - generic [ref=f6e117]:
+            - generic:
+                - generic:
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                - img
+            - generic [ref=f6e118]:
+                - generic [ref=f6e119]:
+                    - heading "Galería" [level=2] [ref=f6e120]
+                    - paragraph [ref=f6e121]: Momentos que capturan la esencia de nuestra labor y el impacto en la comunidad.
+                - list [ref=f6e122]:
+                    - listitem [ref=f6e123]:
+                        - generic [ref=f6e124]:
+                            - img [ref=f6e126]
+                            - paragraph [ref=f6e131]: Evento deportivo
+                    - listitem [ref=f6e132]:
+                        - generic [ref=f6e133]:
+                            - img [ref=f6e135]
+                            - paragraph [ref=f6e140]: Celebración comunitaria
+                    - listitem [ref=f6e141]:
+                        - generic [ref=f6e142]:
+                            - img [ref=f6e144]
+                            - paragraph [ref=f6e149]: Entrega de alimentos
+                    - listitem [ref=f6e150]:
+                        - generic [ref=f6e151]:
+                            - img [ref=f6e153]
+                            - paragraph [ref=f6e158]: Taller de emprendimiento
+                    - listitem [ref=f6e159]:
+                        - generic [ref=f6e160]:
+                            - img [ref=f6e162]
+                            - paragraph [ref=f6e167]: Actividad infantil
+                    - listitem [ref=f6e168]:
+                        - generic [ref=f6e169]:
+                            - img [ref=f6e171]
+                            - paragraph [ref=f6e176]: Jornada médica
+                    - listitem [ref=f6e177]:
+                        - generic [ref=f6e178]:
+                            - img [ref=f6e180]
+                            - paragraph [ref=f6e185]: Entrega de becas
+                    - listitem [ref=f6e186]:
+                        - generic [ref=f6e187]:
+                            - img [ref=f6e189]
+                            - paragraph [ref=f6e194]: Taller educativo
+        - generic [ref=f6e195]:
+            - generic:
+                - img
+                - generic:
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+                    - generic:
+                        - img
+            - generic [ref=f6e196]:
+                - img [ref=f6e197]
+                - heading "Ayúdanos a seguir gotando esperanza" [level=2] [ref=f6e199]
+                - paragraph [ref=f6e200]: Cada gota cuenta. Tu apoyo nos permite seguir transformando vidas y construyendo un futuro mejor para quienes más lo necesitan.
+                - generic [ref=f6e201]:
+                    - link "Donar ahora" [ref=f6e202] [cursor=pointer]:
+                        - /url: https://wa.me/+549110000-0000?text=Hola,%20quiero%20donar%20a%20Gotas%20de%20Esperanza
+                    - link "Contáctanos" [ref=f6e203] [cursor=pointer]:
+                        - /url: mailto:contacto@gotasdeesperanza.org?subject=Contacto%20Gotas%20de%20Esperanza
+    - contentinfo [ref=f6e204]:
+        - generic [ref=f6e205]:
+            - generic [ref=f6e206]:
+                - generic [ref=f6e207]:
+                    - generic [ref=f6e208]:
+                        - img [ref=f6e209]
+                        - generic [ref=f6e211]: Gotas de Esperanza
+                    - paragraph [ref=f6e212]: Somos una organización dedicada al bienestar social, brindando apoyo alimentario, protección y oportunidades a comunidades vulnerables.
+                - generic [ref=f6e213]:
+                    - heading "Contacto" [level=4] [ref=f6e214]
+                    - list [ref=f6e215]:
+                        - listitem [ref=f6e216]:
+                            - link "contacto@gotasdeesperanza.org" [ref=f6e217] [cursor=pointer]:
+                                - /url: mailto:contacto@gotasdeesperanza.org?subject=Contacto%20desde%20web
+                        - listitem [ref=f6e218]:
+                            - link "+54 9 11 0000-0000" [ref=f6e219] [cursor=pointer]:
+                                - /url: https://wa.me/+549110000-0000
+                        - listitem [ref=f6e220]: Buenos Aires, Argentina
+                - generic [ref=f6e221]:
+                    - heading "Síguenos" [level=4] [ref=f6e222]
+                    - generic [ref=f6e223]:
+                        - link "Síguenos en Facebook" [ref=f6e224] [cursor=pointer]:
+                            - /url: https://facebook.com/gotasdeesperanza
+                            - text: Facebook
+                        - link "Síguenos en Instagram" [ref=f6e225] [cursor=pointer]:
+                            - /url: https://instagram.com/gotasdeesperanza
+                            - text: Instagram
+                        - link "Síguenos en YouTube" [ref=f6e226] [cursor=pointer]:
+                            - /url: https://youtube.com/@gotasdeesperanza
+                            - text: YouTube
+            - generic [ref=f6e227]: © 2026 Gotas de Esperanza. Todos los derechos reservados.
+    - link "Contactar por WhatsApp" [ref=f6e228] [cursor=pointer]:
+        - /url: https://wa.me/+549110000-0000
+        - img [ref=f6e229]

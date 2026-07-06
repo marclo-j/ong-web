@@ -1,0 +1,365 @@
+- main [ref=e2]:
+  - navigation:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - generic [ref=e8]: About
+        - listitem [ref=e9]:
+          - generic [ref=e10]: Speakers
+        - listitem [ref=e11]:
+          - generic [ref=e12]: Activities
+      - img [ref=e14]
+      - link "Buy Tickets" [ref=e19]:
+        - /url: https://lu.ma/aq1a429h
+        - generic [ref=e20]: Buy Tickets
+  - generic:
+    - button
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - img [ref=e23]
+      - img [ref=e28]
+    - generic [ref=e35]:
+      - generic:
+        - img
+        - img
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - img [ref=e42]
+            - img [ref=e47]
+          - generic [ref=e54]:
+            - img [ref=e55]
+            - paragraph [ref=e58]: We are bac
+        - heading [level=1] [ref=e60]
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: Sponsored by
+          - link [ref=e67]:
+            - /url: https://www.osmo.supply/
+            - img [ref=e68]
+          - link [ref=e75]:
+            - /url: https://webflow.com/
+            - img [ref=e76]
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Sponsored by
+          - link [ref=e89]:
+            - /url: https://www.osmo.supply/
+            - img [ref=e90]
+          - link [ref=e97]:
+            - /url: https://webflow.com/
+            - img [ref=e98]
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Sponsored by
+          - link [ref=e111]:
+            - /url: https://www.osmo.supply/
+            - img [ref=e112]
+          - link [ref=e119]:
+            - /url: https://webflow.com/
+            - img [ref=e120]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - paragraph [ref=e132]: Sponsored by
+          - link [ref=e134]:
+            - /url: https://www.osmo.supply/
+            - img [ref=e135]
+          - link [ref=e142]:
+            - /url: https://webflow.com/
+            - img [ref=e143]
+        - generic [ref=e153]:
+          - paragraph [ref=e154]: Sponsored by
+          - link [ref=e156]:
+            - /url: https://www.osmo.supply/
+            - img [ref=e157]
+          - link [ref=e164]:
+            - /url: https://webflow.com/
+            - img [ref=e165]
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: Sponsored by
+          - link [ref=e178]:
+            - /url: https://www.osmo.supply/
+            - img [ref=e179]
+          - link [ref=e186]:
+            - /url: https://webflow.com/
+            - img [ref=e187]
+    - generic [ref=e198]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - img [ref=e202]
+          - generic [ref=e204]: What is FlowFest?
+        - generic [ref=e205]:
+          - 'heading "The No.1 Fest for: Web Designers & Devs" [level=2] [ref=e206]':
+            - text: "The No.1 Fest for:"
+            - generic [ref=e207]: Web Designers & Devs
+          - paragraph [ref=e209]: It’s like a conference, but it's outside, with steel drums, pints and way cooler vibes. Listen to web design & dev talks whilst having a belting time.
+          - button "Watch the 2024 Recap" [ref=e210]:
+            - img [ref=e211]
+            - generic [ref=e213]: Watch the 2024 Recap
+      - img [ref=e217]
+    - generic [ref=e236]:
+      - generic [ref=e238]:
+        - heading "Our 2025 Speaker Lineup" [level=2] [ref=e239]:
+          - text: Our 2025
+          - generic [ref=e240]: Speaker
+          - generic [ref=e241]: Lineup
+        - paragraph [ref=e242]:
+          - text: Yep, we got
+          - strong [ref=e243]: Vladdy Daddy
+          - text: for the keynote. Plus some absolute
+          - strong [ref=e244]: legends
+          - text: that will also be sharing the stage. (More speaker
+          - strong [ref=e245]: announcenemts
+          - text: to come!)
+        - link "Buy Tickets" [ref=e247]:
+          - /url: https://lu.ma/aq1a429h
+          - generic [ref=e248]: Buy Tickets
+      - generic [ref=e250]:
+        - generic [ref=e252]: Keynote
+        - generic [ref=e256]:
+          - generic:
+            - img
+            - generic: Vlad Magdalin
+        - paragraph [ref=e258]:
+          - text: Our founding
+          - strong [ref=e259]: Webflow
+          - text: father. Our
+          - strong [ref=e260]: dad joke
+          - text: aficionado. He puts the
+          - strong [ref=e261]: mad
+          - text: into Magdalin and will be kicking off FlowFest '25 as our
+          - strong [ref=e262]: keynote
+          - text: speaker!
+      - generic [ref=e264]:
+        - generic [ref=e266]: Development
+        - generic [ref=e270]:
+          - generic:
+            - img
+            - generic: Ilja van Eck
+        - paragraph [ref=e272]:
+          - text: Oh
+          - strong [ref=e273]: "'Eck"
+          - text: ", we've only gone and secured the web"
+          - strong [ref=e274]: wizard
+          - text: himself. Co-founder of
+          - strong [ref=e275]: Osmo
+          - text: "& Webflow superstar, we can't wait to learn from"
+          - strong [ref=e276]: Ilja
+          - text: "!"
+      - generic [ref=e278]:
+        - generic [ref=e280]: Animation
+        - generic [ref=e284]:
+          - generic:
+            - img
+            - generic: Cassie Evans
+        - paragraph [ref=e286]:
+          - text: Our GSAP
+          - strong [ref=e287]: fairy codemother
+          - text: is here to sprinkle some
+          - strong [ref=e288]: tween
+          - text: magic,
+          - strong [ref=e289]: animation
+          - text: goodness & Webflow's deepest darkest
+          - strong [ref=e290]: secrets
+          - text: now she's on the inside.
+      - generic [ref=e292]:
+        - generic [ref=e294]: Design
+        - generic [ref=e298]:
+          - generic:
+            - img
+            - generic: Stephanie Bruce
+        - paragraph [ref=e300]:
+          - text: Devs want to
+          - strong [ref=e301]: work
+          - text: with her, designers want to
+          - strong [ref=e302]: be
+          - text: her. Steph has hit the ground running with her
+          - strong [ref=e303]: stunning
+          - text: web work and will be sharing her expert
+          - strong [ref=e304]: freelancer
+          - text: growth
+          - strong [ref=e305]: tips
+          - text: .
+      - generic [ref=e307]:
+        - generic [ref=e309]: Animation
+        - generic [ref=e313]:
+          - generic:
+            - img
+            - generic: Ross Plaskow
+        - paragraph [ref=e315]:
+          - text: We've all wanted to
+          - strong [ref=e316]: animate
+          - text: something cool with
+          - strong [ref=e317]: Rive
+          - text: ", and Ross is here to"
+          - strong [ref=e318]: show
+          - text: us how with his ridiculously
+          - strong [ref=e319]: fun
+          - text: and
+          - strong [ref=e320]: slick
+          - text: style.
+    - generic [ref=e323]:
+      - heading "What to Expect" [level=2] [ref=e325]
+      - generic [ref=e326]:
+        - paragraph [ref=e328]: Expert Talks
+        - paragraph [ref=e330]: Fun + Games
+        - paragraph [ref=e332]: Food + Drink
+        - paragraph [ref=e334]: Live Music
+        - paragraph [ref=e336]: Community
+    - generic [ref=e340]:
+      - generic [ref=e341]:
+        - heading "An Event Ran by The Community, For The Community" [level=2] [ref=e342]:
+          - text: An Event Ran by
+          - generic [ref=e343]: The Community,
+          - generic [ref=e344]: For The Community
+        - paragraph [ref=e345]:
+          - text: This is a
+          - strong [ref=e346]: non-profit
+          - text: event run by
+          - strong [ref=e347]: volunteer
+          - text: community members. At FlowFest our motivation is to lead with kindness, inclusivity, support and
+          - strong [ref=e348]: FUN
+          - text: ", obvs."
+        - link "Buy Tickets" [ref=e350]:
+          - /url: https://lu.ma/aq1a429h
+          - generic [ref=e351]: Buy Tickets
+      - generic [ref=e352]:
+        - generic [ref=e357]: Isabel Edwards
+        - generic [ref=e362]: Josh Fry
+        - generic [ref=e367]: Benn Raistrick
+        - generic [ref=e372]: Scott Humphrey
+        - generic [ref=e377]: Rachael Ward
+        - generic [ref=e382]: John Ostler
+    - heading "Flowfest Love" [level=2] [ref=e388]:
+      - text: Flowfest
+      - generic [ref=e389]: Love
+    - generic [ref=e405]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e407]:
+        - text: Frequently Asked
+        - generic [ref=e408]: Questions
+      - list [ref=e414]:
+        - listitem [ref=e415]:
+          - img [ref=e417]
+          - generic [ref=e422]:
+            - paragraph [ref=e423]:
+              - text: This is a
+              - strong [ref=e424]: non-profit
+              - text: event, and our goal is to make FlowFest as
+              - strong [ref=e425]: affordable
+              - text: as we possibly can whilst delivering a
+              - strong [ref=e426]: quality
+              - text: day that you’ll never forget. Due to last year’s feedback we are investing more in
+              - strong [ref=e427]: comfort
+              - text: and
+              - strong [ref=e428]: quality
+              - text: this year.
+            - paragraph [ref=e429]:
+              - text: To keep ticket prices as
+              - strong [ref=e430]: low
+              - text: as we can for
+              - strong [ref=e431]: everyone
+              - text: ", we are"
+              - strong [ref=e432]: unable
+              - text: to offer discounts and appreciate your
+              - strong [ref=e433]: support
+              - text: for this community event.
+            - link "Buy Tickets" [ref=e435]:
+              - /url: https://lu.ma/aq1a429h
+              - generic [ref=e436]: Buy Tickets
+          - generic [ref=e437]:
+            - heading "Can I have a discount?" [level=3] [ref=e438]:
+              - strong [ref=e439]: Can I have a discount?
+            - img [ref=e441]
+        - listitem [ref=e443]:
+          - img [ref=e445]
+          - paragraph [ref=e451]:
+            - text: FlowFest is hosted in
+            - strong [ref=e452]: Media City Gardens
+            - text: (you’ll find it by searching the Blue Peter Garden on Google Maps), which is an
+            - strong [ref=e453]: outdoor
+            - text: venue. It’s directly in front of Media City
+            - strong [ref=e454]: tram
+            - text: stop, which is a great way to get to the venue if you’re travelling from the city centre or other parts of Manchester. There is also a
+            - strong [ref=e455]: multi-story car par
+            - text: k just round the corner for those driving.
+          - generic [ref=e456]:
+            - heading "How do I get there?" [level=3] [ref=e457]:
+              - strong [ref=e458]: How do I get there?
+            - img [ref=e460]
+        - listitem [ref=e462]:
+          - img [ref=e464]
+          - paragraph [ref=e470]:
+            - text: Yes, a banging
+            - strong [ref=e471]: lunch
+            - text: courtesy of Kargo on the Docks is
+            - strong [ref=e472]: included
+            - text: in your ticket, as well as
+            - strong [ref=e473]: drinks
+            - text: tokens.
+          - generic [ref=e474]:
+            - heading "Is there food included?" [level=3] [ref=e475]:
+              - strong [ref=e476]: Is there food included?
+            - img [ref=e478]
+        - listitem [ref=e480]:
+          - img [ref=e482]
+          - paragraph [ref=e488]:
+            - text: Good vibes and
+            - strong [ref=e489]: layers
+            - text: . This is an all day
+            - strong [ref=e490]: outdoor
+            - text: event in
+            - strong [ref=e491]: Manchester
+            - text: ", so check the weather closer to the time and"
+            - strong [ref=e492]: dress accordingly.
+            - text: Also, we’ve taken your feedback onboard and there are no hands on workshops, so
+            - strong [ref=e493]: no need
+            - text: to bring a
+            - strong [ref=e494]: laptop
+            - text: .
+          - generic [ref=e495]:
+            - heading "What should I bring?" [level=3] [ref=e496]:
+              - strong [ref=e497]: What should I bring?
+            - img [ref=e499]
+        - listitem [ref=e501]:
+          - img [ref=e503]
+          - paragraph [ref=e509]:
+            - text: As it was last year, there isn’t an
+            - strong [ref=e510]: official
+            - text: or planned afterparty, but FlowFest folks know the party
+            - strong [ref=e511]: never stops.
+            - text: We usually have the venue until 6 or 7pm, and last year we headed to Kargo Food Market to get some
+            - strong [ref=e512]: dinner
+            - text: and headed into town for
+            - strong [ref=e513]: karaoke
+            - text: . After party
+            - strong [ref=e514]: planners
+            - text: welcome, FlowFest is on a Friday after all so it would be rude not to get a bit
+            - strong [ref=e515]: lairy
+            - text: .
+          - generic [ref=e516]:
+            - heading "Will there be an afterparty?" [level=3] [ref=e517]:
+              - strong [ref=e518]: Will there be an afterparty?
+            - img [ref=e520]
+    - generic [ref=e524]:
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic [ref=e525]:
+        - heading "Get Your Ticket for the Community-Led Event of the Year" [level=2] [ref=e526]
+        - paragraph [ref=e527]: As web designers and developers, this is the kind of event we desperately wanted, so we created it. No stuffy conference rooms, no dull corporate halls, just a lovely community sharing knowledge with a pint and a burger in hand.
+        - link "Buy Tickets" [ref=e529]:
+          - /url: https://lu.ma/aq1a429h
+          - generic [ref=e530]: Buy Tickets
+    - generic [ref=e531]:
+      - generic [ref=e533]:
+        - generic [ref=e534]:
+          - heading "See you there!" [level=2] [ref=e535]
+          - paragraph [ref=e536]: Reach out to Isabel at isabel@designsie.co.uk if you have any questions.
+        - form "Email Form" [ref=e539]:
+          - generic [ref=e540]:
+            - textbox "First Name" [ref=e541]
+            - textbox "Email" [ref=e542]
+          - button "Get updates" [ref=e544]
+      - generic [ref=e547]:
+        - img [ref=e548]
+        - img [ref=e555]
